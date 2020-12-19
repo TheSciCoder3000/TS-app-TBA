@@ -4,24 +4,28 @@
 	  >
 
 	<item android:id="@+id/nav_dash"
-		  android:enabled="false"
+		  android:orderInCategory="0"
+		  android:enabled="true"
 		  android:icon="@drawable/dashboard"
 		  android:title="Dashboard"
 		  app:showAsAction="ifRoom"/>
 
 	<item android:id="@+id/nav_todo"
 		  android:enabled="true"
+		  android:orderInCategory="1"
 		  android:icon="@drawable/todos"
 		  android:title="Todos"
 		  app:showAsAction="ifRoom"/>
 
 	<item android:id="@+id/nav_calendar"
+		  android:orderInCategory="2"
 		  android:enabled="true"
 		  android:icon="@drawable/calendar"
 		  android:title="Calendar"
 		  app:showAsAction="ifRoom"/>
 
 	<item android:id="@+id/nav_settings"
+		  android:orderInCategory="3"
 		  android:enabled="true"
 		  android:icon="@drawable/settings"
 		  android:title="Settings"

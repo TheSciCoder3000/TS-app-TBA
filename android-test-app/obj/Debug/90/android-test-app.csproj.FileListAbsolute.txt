@@ -322,7 +322,6 @@ C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Debug\90\android\bin\com.c
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Debug\90\android\bin\base.zip
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Debug\90\android\bin\com.companyname.android_test_app.aab
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Debug\90\android\bin\com.companyname.android_test_app.apks
-C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Debug\90\res\layout\activity_main.xml
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Debug\90\res\layout\content_main.xml
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Debug\90\res\values\colors.xml
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Debug\90\res\values\dimens.xml
