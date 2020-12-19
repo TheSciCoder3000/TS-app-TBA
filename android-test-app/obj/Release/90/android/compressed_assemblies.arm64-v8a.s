@@ -17,7 +17,7 @@
 
 	/* 1: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.word	1030144
+	.word	989184
 	/* loaded */
 	.byte	0
 	/* data */
@@ -215,7 +215,7 @@
 
 	/* 23: Xamarin.Android.Support.Compat.dll */
 	/* uncompressed_file_size */
-	.word	154624
+	.word	71680
 	/* loaded */
 	.byte	0
 	/* data */
@@ -251,7 +251,7 @@
 
 	/* 27: Xamarin.Android.Support.Core.UI.dll */
 	/* uncompressed_file_size */
-	.word	6144
+	.word	6656
 	/* loaded */
 	.byte	0
 	/* data */
@@ -260,7 +260,7 @@
 
 	/* 28: Xamarin.Android.Support.Core.Utils.dll */
 	/* uncompressed_file_size */
-	.word	6144
+	.word	5632
 	/* loaded */
 	.byte	0
 	/* data */
@@ -314,7 +314,7 @@
 
 	/* 34: Xamarin.Android.Support.DrawerLayout.dll */
 	/* uncompressed_file_size */
-	.word	36352
+	.word	5632
 	/* loaded */
 	.byte	0
 	/* data */
@@ -323,7 +323,7 @@
 
 	/* 35: Xamarin.Android.Support.Fragment.dll */
 	/* uncompressed_file_size */
-	.word	140288
+	.word	142848
 	/* loaded */
 	.byte	0
 	/* data */
@@ -413,7 +413,7 @@
 
 	/* 45: Xamarin.Android.Support.ViewPager.dll */
 	/* uncompressed_file_size */
-	.word	5632
+	.word	52224
 	/* loaded */
 	.byte	0
 	/* data */
@@ -422,7 +422,7 @@
 
 	/* 46: Xamarin.Android.Support.v7.AppCompat.dll */
 	/* uncompressed_file_size */
-	.word	311808
+	.word	17920
 	/* loaded */
 	.byte	0
 	/* data */
@@ -458,7 +458,7 @@
 
 	/* 50: android-test-app.dll */
 	/* uncompressed_file_size */
-	.word	162816
+	.word	164352
 	/* loaded */
 	.byte	0
 	/* data */

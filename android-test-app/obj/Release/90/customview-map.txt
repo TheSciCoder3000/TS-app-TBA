@@ -2,6 +2,7 @@ adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 android.support.design.widget.BottomNavigationView;obj\Release\90\res\layout\content_main.xml
 android.support.design.widget.CoordinatorLayout;obj\Release\90\res\layout\activity_main.xml
+android.support.v4.view.ViewPager;obj\Release\90\res\layout\content_main.xml
 background;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Release\90\res\layout\test_layout.xml
@@ -22,8 +23,11 @@ item;obj\Release\90\res\menu\bottom_navigation_main.xml
 item;obj\Release\90\res\menu\menu_main.xml
 item;obj\Release\90\res\values\styles.xml
 layer-list;obj\Release\90\res\drawable\newcircle.xml
+LinearLayout;obj\Release\90\res\layout\calendar_layout.xml
 LinearLayout;obj\Release\90\res\layout\dash_layout.xml
+LinearLayout;obj\Release\90\res\layout\settings_layout.xml
 LinearLayout;obj\Release\90\res\layout\test_layout.xml
+LinearLayout;obj\Release\90\res\layout\todos_layout.xml
 menu;obj\Release\90\res\menu\bottom_navigation_main.xml
 menu;obj\Release\90\res\menu\menu_main.xml
 paths;C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -43,4 +47,7 @@ solid;obj\Release\90\res\drawable\newcircle.xml
 solid;obj\Release\90\res\drawable\sumwidget.xml
 string;obj\Release\90\res\values\strings.xml
 style;obj\Release\90\res\values\styles.xml
+TextView;obj\Release\90\res\layout\calendar_layout.xml
 TextView;obj\Release\90\res\layout\dash_layout.xml
+TextView;obj\Release\90\res\layout\settings_layout.xml
+TextView;obj\Release\90\res\layout\todos_layout.xml

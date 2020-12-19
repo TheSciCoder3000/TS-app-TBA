@@ -4677,20 +4677,23 @@ namespace android_test_app
 			// aapt resource value: 0x7F080120
 			public const int useLogo = 2131231008;
 			
+			// aapt resource value: 0x7F080122
+			public const int viewpager = 2131231010;
+			
 			// aapt resource value: 0x7F080121
 			public const int view_offset_helper = 2131231009;
 			
-			// aapt resource value: 0x7F080122
-			public const int visible = 2131231010;
-			
 			// aapt resource value: 0x7F080123
-			public const int withText = 2131231011;
+			public const int visible = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int wrap = 2131231012;
+			public const int withText = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int wrap_content = 2131231013;
+			public const int wrap = 2131231013;
+			
+			// aapt resource value: 0x7F080126
+			public const int wrap_content = 2131231014;
 			
 			static Id()
 			{
@@ -4873,13 +4876,13 @@ namespace android_test_app
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int activity_main = 2131427356;
+			public const int browser_actions_context_menu_page = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int browser_actions_context_menu_row = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int calendar_layout = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
 			public const int content_main = 2131427359;
@@ -4963,10 +4966,16 @@ namespace android_test_app
 			public const int select_dialog_singlechoice_material = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int support_simple_spinner_dropdown_item = 2131427386;
+			public const int settings_layout = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int test_layout = 2131427387;
+			public const int support_simple_spinner_dropdown_item = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int test_layout = 2131427388;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int todos_layout = 2131427389;
 			
 			static Layout()
 			{

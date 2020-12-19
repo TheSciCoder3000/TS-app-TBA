@@ -3,59 +3,71 @@ using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
+using Android.Support.V4.App;
+using Android.Support.V4.View;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using android_test_app.Adapters;
 using android_test_app.fragments;
 
 namespace android_test_app
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : FragmentActivity
     {
+        ViewPager _viewPager;
+        BottomNavigationView _navigationView;
+        Android.Support.V4.App.Fragment[] _fragments;
+
+        dash_fragment dashFrag = new dash_fragment();
+        todos_fragment todoFrag = new todos_fragment();
+        calendar_fragment calendarFrag = new calendar_fragment();
+        settings_fragment settingFrag = new settings_fragment();
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
             //Sets The layout
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.content_main);
 
-            /* Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
-            
-            FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
-            */
 
-            // Bottom Navigation
-            var bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation);
-            bottomNavigation.NavigationItemSelected += (s, e) => {
-                switch (e.Item.ItemId)
-                {
-                    case Resource.Id.nav_dash:
-                        Console.WriteLine("Dashboard Selected");
-                        break;
+            // ViewPager Code
+            _viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
+            _viewPager.PageSelected += ViewPager_PageSelected;
+            ViewPagerAdapter adapter = new ViewPagerAdapter(SupportFragmentManager);
+            adapter.AddFragment(dashFrag, "Dashboard");
+            adapter.AddFragment(todoFrag, "Todos");
+            adapter.AddFragment(calendarFrag, "Calendar");
+            adapter.AddFragment(settingFrag, "Settings");
+            _viewPager.Adapter = adapter;
 
-                    case Resource.Id.nav_todo:
-                        Console.WriteLine("Todo Selected");
-                        break;
+            _navigationView = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation);
+            _navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
 
-                    case Resource.Id.nav_calendar:
-                        Console.WriteLine("Calendar Selected");
-                        break;
-                }
-            };
-
-            // Fragment Setup
-            var trans = SupportFragmentManager.BeginTransaction();
-            trans.Add(Resource.Id.fragmentContainer, new dash_fragment(), "dash_fragment");
-            trans.Commit();
-            
         }
 
+        private void NavigationView_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
+        {
+            _viewPager.SetCurrentItem(e.Item.Order, true);
+            Console.WriteLine("nav pressed "+e.Item);
 
+        }
 
+        private void ViewPager_PageSelected(object sender, ViewPager.PageSelectedEventArgs e)
+        {
+            var item = _navigationView.Menu.GetItem(e.Position);
+            _navigationView.SelectedItemId = item.ItemId;
+        }
+
+        protected override void OnDestroy()
+        {
+            _viewPager.PageSelected -= ViewPager_PageSelected;
+            _navigationView.NavigationItemSelected -= NavigationView_NavigationItemSelected;
+            base.OnDestroy();
+        }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
@@ -73,14 +85,6 @@ namespace android_test_app
 
             return base.OnOptionsItemSelected(item);
         }
-        /*
-        private void FabOnClick(object sender, EventArgs eventArgs)
-        {
-            View view = (View) sender;
-            Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
-                .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
-        }
-        */
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

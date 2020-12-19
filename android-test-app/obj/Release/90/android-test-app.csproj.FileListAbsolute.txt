@@ -8,7 +8,6 @@ C:\Users\drjjd\github\TS-app-TBA\android-test-app\bin\Release\com.companyname.an
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\build.props
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\adb.props
-C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android-test-app.csprojAssemblyReference.cache
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\stamp\_BuildLibraryImportsCache.stamp
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\res.flag
@@ -160,7 +159,6 @@ C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\and
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\android\support\v7\appcompat\R.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\android\support\v7\cardview\R.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\android\support\v7\recyclerview\R.java
-C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\android\support\v7\widget\Toolbar_NavigationOnClickEventDispatcher.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\crc645806a941551584b4\dash_fragment.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\crc645806a941551584b4\settings_fragment.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\crc64a0938cba538937ca\MainActivity.java
@@ -170,11 +168,6 @@ C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mon
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemReselectedListenerImplementor.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\design\widget\BottomNavigationView_OnNavigationItemSelectedListenerImplementor.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\v4\app\FragmentManager_OnBackStackChangedListenerImplementor.java
-C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\v4\view\ActionProvider_SubUiVisibilityListenerImplementor.java
-C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\v4\view\ActionProvider_VisibilityListenerImplementor.java
-C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\v4\widget\DrawerLayout_DrawerListenerImplementor.java
-C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\v7\app\ActionBar_OnMenuVisibilityListenerImplementor.java
-C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\v7\widget\Toolbar_OnMenuItemClickListenerImplementor.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\bin\packaged_resources
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\com\companyname\android_test_app\R.java
@@ -196,3 +189,12 @@ C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\stamp\_ConvertR
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android-test-app.csprojAssemblyReference.cache
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\res\layout\settings_layout.xml
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\res\layout\calendar_layout.xml
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\res\layout\todos_layout.xml
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\crc645806a941551584b4\calendar_fragment.java
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\crc645806a941551584b4\todos_fragment.java
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\crc64e09fcd3ded907c44\ViewPagerAdapter.java
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\v4\view\ViewPager_OnAdapterChangeListenerImplementor.java
+C:\Users\drjjd\github\TS-app-TBA\android-test-app\obj\Release\90\android\src\mono\android\support\v4\view\ViewPager_OnPageChangeListenerImplementor.java
