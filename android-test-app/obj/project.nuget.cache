@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GR97QcgkiEL5a6q3HREmyNF7wgg7yEMOJnsFGZU9PeC1tSz5IrYHeqeg/utL+IMuoKTKVD9jTtJVBBbBu8h+wA==",
+  "dgSpecHash": "+oGRf316+lb9zkSnpBHDPn5+fbUpqWnHIh6rHMMQ+psp00fdqlrVUrjjPyjbTIZpe8sUWN5vqUOkeExdK+C//A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\drjjd\\github\\TS-app-TBA\\android-test-app\\android-test-app.csproj",
+  "projectFilePath": "C:\\Users\\drjjd\\source\\repos\\test_folder\\TS-app-TBA\\android-test-app\\android-test-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drjjd\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

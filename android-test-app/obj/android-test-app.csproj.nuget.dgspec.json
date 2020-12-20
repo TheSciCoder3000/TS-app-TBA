@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drjjd\\github\\TS-app-TBA\\android-test-app\\android-test-app.csproj": {}
+    "C:\\Users\\drjjd\\source\\repos\\test_folder\\TS-app-TBA\\android-test-app\\android-test-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drjjd\\github\\TS-app-TBA\\android-test-app\\android-test-app.csproj": {
+    "C:\\Users\\drjjd\\source\\repos\\test_folder\\TS-app-TBA\\android-test-app\\android-test-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drjjd\\github\\TS-app-TBA\\android-test-app\\android-test-app.csproj",
+        "projectUniqueName": "C:\\Users\\drjjd\\source\\repos\\test_folder\\TS-app-TBA\\android-test-app\\android-test-app.csproj",
         "projectName": "android-test-app",
-        "projectPath": "C:\\Users\\drjjd\\github\\TS-app-TBA\\android-test-app\\android-test-app.csproj",
+        "projectPath": "C:\\Users\\drjjd\\source\\repos\\test_folder\\TS-app-TBA\\android-test-app\\android-test-app.csproj",
         "packagesPath": "C:\\Users\\drjjd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drjjd\\github\\TS-app-TBA\\android-test-app\\obj\\",
+        "outputPath": "C:\\Users\\drjjd\\source\\repos\\test_folder\\TS-app-TBA\\android-test-app\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -55,6 +55,10 @@
               "version": "[28.0.0.3, )"
             },
             "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.RecyclerView": {
               "target": "Package",
               "version": "[28.0.0.3, )"
             },

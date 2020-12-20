@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
@@ -6,24 +7,30 @@ using Android.Support.Design.Widget;
 using Android.Support.V4.App;
 using Android.Support.V4.View;
 using Android.Support.V7.App;
+using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
 using android_test_app.Adapters;
 using android_test_app.fragments;
+using android_test_app.otherCs;
 
 namespace android_test_app
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : FragmentActivity
     {
+        // ViewPager and Bottom Navbar initialization
         ViewPager _viewPager;
         BottomNavigationView _navigationView;
         Android.Support.V4.App.Fragment[] _fragments;
 
+        // Fragment Activity Initialization
         dash_fragment dashFrag = new dash_fragment();
         todos_fragment todoFrag = new todos_fragment();
         calendar_fragment calendarFrag = new calendar_fragment();
         settings_fragment settingFrag = new settings_fragment();
+
+        
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -32,7 +39,6 @@ namespace android_test_app
 
             //Sets The layout
             SetContentView(Resource.Layout.content_main);
-
 
             // ViewPager Code
             _viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
@@ -47,7 +53,9 @@ namespace android_test_app
             _navigationView = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation);
             _navigationView.NavigationItemSelected += NavigationView_NavigationItemSelected;
 
-        }
+
+        }            
+        
 
         private void NavigationView_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
         {

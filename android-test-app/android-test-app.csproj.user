@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>Samsung SM-G9287</SelectedDevice>
-    <DefaultDevice>nexus_6_nougat_7_0_-_api_24</DefaultDevice>
+    <SelectedDevice>pixel_2_nougat_7_0_-_api_24</SelectedDevice>
+    <DefaultDevice>pixel_2_nougat_7_0_-_api_24</DefaultDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 6</AndroidDesignerPreferredDevice>
   </PropertyGroup>
